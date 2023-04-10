@@ -1,0 +1,26 @@
+/*Selectores */
+h1{
+    /*Atributos*/
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*Vakores*/
+}
+
+h2{
+    color: #de3a19;
+}
+
+#second h1{
+    color: #ff55aa;
+}
+
+.container{
+    border: 5px black solid;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+body{
+    margin: 0;
+}
