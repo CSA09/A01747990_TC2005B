@@ -1,0 +1,112 @@
+.border-example {
+    border: 2px solid black;
+  }
+  .border-left-example {
+    border-left: 5px solid red;
+  }
+  .border-right-example {
+    border-right: 5px solid blue;
+  }
+  .border-top-example {
+    border-top: 5px solid green;
+  }
+  .border-bottom-example {
+    border-bottom: 5px solid yellow;
+  }
+
+  /* Border radius */
+  .border-radius-example {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  #foto h2{
+    color: white;
+  }
+
+  #foto p{
+    color: white;
+  }
+  
+  /* Background image */
+  .background-example {
+    background-image: url('../html/img2.jpg');
+    height: 300px;
+    width: 600px;
+  }
+
+  /* Color */
+  .color-example {
+    color: red;
+  }
+
+  /* Font */
+  .font-example {
+    font: 1.2em "Fira Sans", sans-serif;
+  }
+
+  .font-family{
+    font: small-caps bold 24px/1 sans-serif;
+  }
+
+  .font-style_weight{
+    font-style: italic;
+    font-weight: 100;
+  }
+
+  /* Width and height */
+  .dimension-example {
+    width: 200px;
+    height: 100px;
+    background-color: gray;
+  }
+
+  /* List style */
+  .list-example {
+    list-style: square; 
+  }
+
+  /* Margin and padding */
+  .spacing-example {
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgray;
+  }
+
+  /* Overflow */
+  .overflow-example {
+    height: 100px;
+    overflow: scroll;
+  }
+
+  /* Display****** */
+  .display-example {
+    display: grid;
+    background-color: green;
+    margin-right: 10px;
+  }
+
+  /* Position */
+  .position-example {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    background-color: yellow;
+  }
+
+  /* Filter */
+  .filter-example {
+    background-image: url('../html/img2.jpg');
+    height: 300px;
+    width: 600px;
+    filter: grayscale(80%);
+  }
+
+  #foto2 h2{
+    color: white;
+  }
+
+  #foto2 p{
+    color: white;
+  }
