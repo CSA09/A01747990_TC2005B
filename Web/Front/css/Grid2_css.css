@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: gray;
+} 
+
+.grid-container{
+    margin: 10px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, fr);
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-areas: "header header header"; 
+    grid-auto-rows: minmax(150px, 1fr);
+    gap: 10px;
+}
+
+.grid-item{
+    padding: 10px;
+    border: 1px white solid;
+    background-color: rgb(93, 230, 230);
+    min-height: 0;
+}
+
+.grid-item-1{
+    grid-area: header;
+}
+
+.grid-item-2{
+    grid-row: 2 / 3; /*Abarca de la fila 2 hasta la 3, es decir, ocupa solo un espacio de fila*/
+    grid-column: 2 / span 2;
+    background-color: cornflowerblue;
+}
+
+.grid-item-3{
+    grid-row: 2 /span 2;
+    background-color: red;
+}
+
+.grid-item-4{
+    grid-row: auto;
+    grid-column: auto;
+    background-color: white;
+ }
+
+
+.grid-item-5{
+    grid-row: auto;
+    grid-column: auto;
+    background-color: goldenrod;
+}
