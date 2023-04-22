@@ -1,0 +1,28 @@
+*{
+    border: 1px black solid; /*Eliminar*/
+}
+
+.container{
+    display: flex;
+    margin: 5px; /*Eliminar*/
+    flex-direction: row;
+}
+
+div{
+    padding: 10px;
+}
+
+.box{
+    margin: 10px;
+    display: flex;
+}
+
+#seccion1{
+    justify-content: space-between;
+    background-color: darkblue;
+    align-items: baseline;   /*Alinea todos los elementos de la seccion 1 en el mismo renglón*/
+}
+
+#seccion2{
+    background-color: orangered;
+}
